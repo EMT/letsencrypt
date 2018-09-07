@@ -13,7 +13,7 @@ do
   COMMAND = "$COMMAND -d $DOMAIN"
 done
 
-COMMAND = "$COMMAND --default_root $LE_EMAIL"
+COMMAND = "$COMMAND --default_root $LE_DEFAULT_ROOT"
 
 echo
 echo "Getting certificate with command:"
