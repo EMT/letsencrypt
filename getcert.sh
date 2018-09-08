@@ -17,7 +17,7 @@ COMMAND="$COMMAND --default_root $LE_DEFAULT_ROOT"
 
 echo
 echo "Getting certificate with command:"
-echo "$COMMAND"
+echo '$COMMAND'
 echo
 
 $COMMAND
