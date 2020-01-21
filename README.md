@@ -6,7 +6,6 @@ Requires the following environment variables:
 `LE_EMAIL`: email address for Let’s Encrypt account
 `LE_DOMAINS`: space separated list of domain names
 `LE_DEFAULT_ROOT`: location of the Let’s Encrypt challenge files
-```
 
 `docker-compose` example:
 
