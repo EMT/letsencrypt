@@ -5,6 +5,7 @@ cd $LE_CERTS_DIR
 COMMAND='simp_le'
 COMMAND="$COMMAND --email $LE_EMAIL"
 COMMAND="$COMMAND -f account_key.json"
+COMMAND="$COMMAND -f account_reg.json"
 COMMAND="$COMMAND -f fullchain.pem"
 COMMAND="$COMMAND -f key.pem"
 
